@@ -42,7 +42,15 @@ window.addEventListener('load', () => {
     }
 });
 
-
+// Add form validation and error handling
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    try {
+        // Form submission logic
+    } catch (error) {
+        // Error handling
+    }
+});
 
 
 
